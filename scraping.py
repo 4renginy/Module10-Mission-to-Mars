@@ -6,7 +6,7 @@ import datetime as dt
 
 def scrape_all():
     # Initiate headless driver for deployment
-    browser = Browser('chrome','executable_path'= 'chromedriver', headless=True)
+    browser = Browser('chrome','executable_path'== 'chromedriver', headless=True)
 
     news_title, news_paragraph = mars_news(browser)
     # Run all scraping functions and store results in dictionary
@@ -34,7 +34,8 @@ def mars_news(browser):
     news_soup = soup(html, 'html.parser')
     
     # Add try/except for error handling
-    try
+    try:
+        slide_elem = news_soup.select_one("ul.item_list li.slide")
         slide_elem.find("div", class_='content_title')
         # Use the parent element to find the first `a` tag and save it as `news_title`
         news_title = slide_elem.find("div", class_='content_title').get_text()
