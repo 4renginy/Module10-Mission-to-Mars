@@ -12,6 +12,10 @@ Mission to Mars ipynb is the starting point; with the help from [Missionto Mars 
 
 Now we collected all the inforamtion from web it is time to present it. The way we did is creating an index.html file. This file will have info about Mars pictures, Mars facts, Weather and Hemisphare information and pictures. We also added a button to scrape the latest info as soon as we click on it.
 
+The web page looks like this;
+[!Mission_to_Mars_indexpage](https://github.com/4renginy/Module10-Mission-to-Mars/blob/main/missionto%20mars.PNG)
+
+
 
 
 
