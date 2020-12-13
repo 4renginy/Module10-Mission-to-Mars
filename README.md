@@ -16,6 +16,12 @@ Now we collected all the inforamtion from web it is time to present it. The way 
 
 ![Mission_to_Mars_indexpage](https://github.com/4renginy/Module10-Mission-to-Mars/blob/main/missionto%20mars.PNG)
 
+Mars Hemsphares would look like this.
+
+![Mars](https://github.com/4renginy/Module10-Mission-to-Mars/blob/main/mars_hemisphares.PNG)
+
+If there is anythign else Robin needed to add we could add it to scraping page and modify the index page to show it. 
+
 
 
 
